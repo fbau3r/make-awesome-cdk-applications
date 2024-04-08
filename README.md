@@ -92,13 +92,38 @@ I always certainly start a new repository as described in the following steps.
 
     Instead, you might want to read more at [Testing constructs](https://docs.aws.amazon.com/cdk/v2/guide/testing.html).
 
-6. _✍️ Manual:_ Open code files, format them in VS Code then commit as `Format code`
+6. _🫣 Optional:_ Add `.editorconfig`
 
-7. _✍️ Manual:_ Configure attributes `stackName` and `tags` in `StackProps`.
+    ```bash
+     cat <<EOF > .editorconfig
+    # EditorConfig is awesome: https://EditorConfig.org
 
-8. _🫣 Optional:_ Use custom `StackProps` if you see fit.
+    # top-most EditorConfig file
+    root = true
 
-9. _✍️ Manual:_ Update README: Add title and general description. Copy from section [Templates for README](#templates-for-readme) as you see fit.
+    [{*.md,*.markdown}]
+    end_of_line = lf
+    insert_final_newline = true
+    indent_style = space
+    indent_size = 2
+    trim_trailing_whitespace = false
+
+    [{.editorconfig,.markdownlint.jsonc}]
+    end_of_line = lf
+    insert_final_newline = true
+    indent_style = space
+    indent_size = 2
+    trim_trailing_whitespace = false
+    EOF
+    ```
+
+7. _✍️ Manual:_ Open code files, format them in VS Code then commit as `Format code`
+
+8. _✍️ Manual:_ Configure attributes `stackName` and `tags` in `StackProps`.
+
+9. _🫣 Optional:_ Use custom `StackProps` if you see fit.
+
+10. _✍️ Manual:_ Update README: Add title and general description. Copy from section [Templates for README](#templates-for-readme) as you see fit.
 
 ## Templates for README
 
