@@ -136,20 +136,20 @@ Copy, paste then adapt:
 ## Prerequisites
 
 - Install or upgrade
-    [Node.js](https://nodejs.org/en/download/)
-    20.11.1 or later. We recommend a version in
-    [active long-term support](https://nodejs.org/en/about/releases/).
+  [Node.js](https://nodejs.org/en/download/)
+  20.11.1 or later. We recommend a version in
+  [active long-term support](https://nodejs.org/en/about/releases/).
 - Install or upgrade the AWS CDK CLI.
-    For installation instructions, see
-    [Install the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html#getting_started_install).
+  For installation instructions, see
+  [Install the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html#getting_started_install).
 - Establish authentication with AWS.
-    For general instructions, see
-    [Authentication with AWS](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html#getting_started_auth).
+  For general instructions, see
+  [Authentication with AWS](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html#getting_started_auth).
 - Install package dependencies:
 
-    ```bash
-    npm install
-    ```
+  ```bash
+  npm install
+  ```
 ````
 
 ### Deploy Template
