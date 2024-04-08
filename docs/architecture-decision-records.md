@@ -52,3 +52,5 @@ From <https://docs.powertools.aws.dev/lambda/typescript/latest/>:
 > -- <https://github.com/nvm-sh/nvm?tab=readme-ov-file#intro>
 
 This allows the installation and use of multiple Node.js versions on the same machine at the same time.
+
+For installation instructions, see [Install Node Version Manager](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating) (0.39.7 or newer).
